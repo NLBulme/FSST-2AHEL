@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 
 int main()
 {
-
-    int K = rand(100<1);
+    srand(time(NULL));
+    int K = rand() %100+1;
+    
     int a;
     int i = 0;
     int richtig = 0;
+
     printf("Gib eine Zahl ein:\n");
     scanf("%d", &a);
-
     while (!richtig)
+    
     {
-
     if ( i == 8 )
     {
         richtig = 1;
@@ -37,11 +38,6 @@ int main()
         i++;
     }
     }
-
-
-
-   
-
     return 0;
 
 }
