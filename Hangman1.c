@@ -1,32 +1,32 @@
 #include <stdio.h>
 
-// TEst
+// Test
 
 int main()
 {
-const char secret[]="Billa";
+    const char secret[]="Billa";
+    const int len  = sizeof(secret)- 1;
+    char guessed[len];
+    char Bustatbenanzahl ='_';
     char guess;
-    printf("erate den Buchstaben :");
+    printf("Erate den Buchstaben :");
     scanf(" %c",&guess);
     int hits =0;
-
-    for (int i = 0; i < sizeof(secret)- 1; i++)
+    for ( int i = 0; i < len; i++){
+        guessed[i] = '_';
+    }
+    printf("Treffer = %d\n",hits);
+    for (int i = 0; i < len; i++)
     {
         if ((secret[i])==guess)
         {
             hits++;
+            guessed[i] = guess;
         }
     }
-    printf("Treffer:%d",hits);
-    /*if (guess==secret)
-    {
-        printf("Treffer das Wort war %c", secret);
-    }*/
-
-    /*else
-    {
-        printf("Schade");
-    }*/
+    for ( int i = 0; i < len; i++){
+        printf("%c",guessed[i]);
+    }
     return 0;
 
 }
