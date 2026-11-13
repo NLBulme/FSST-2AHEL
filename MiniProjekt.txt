@@ -1,0 +1,8 @@
+Ausgangssituation
+Ich bin leidenschaftlicher Hobby-Läufer und trainiere gerade für meinen ersten Zehn-Kilometer-Lauf. Nach meinen Trainingsläufen schaue ich mir immer meine gelaufene Zeit und die Distanz auf meiner einfachen Stoppuhr an, um zu sehen, ob ich schneller geworden bin.
+Dein Anliegen
+Bisher muss ich nach jedem Lauf den Taschenrechner herausholen und mühsam umrechnen, wie viele Minuten und Sekunden ich im Durchschnitt für einen einzelnen Kilometer gebraucht habe. Außerdem möchte ich wissen, wie lang ich in diesem Tempo für die vollen zehn Kilometer brauchen würde. Das möchte ich mir gerne automatisieren lassen.
+Bedienung
+Ich möchte das Programm am liebsten ganz schnell direkt beim Starten mit den nötigen Zahlen füttern können, ohne mich erst durch lange Menüs klicken zu müssen. Ich gebe also beim Starten die gelaufene Distanz in Kilometern (auch mit Kommastellen, wie zum Beispiel 5.5) sowie die benötigten Minuten und Sekunden an. Als Ergebnis soll mir das Programm übersichtlich anzeigen, wie viele Minuten und Sekunden ich pro Kilometer gebraucht habe und wie viele Minuten und Sekunden ich damit für 10 Kilometer brauchen würde.
+Beispiel
+Ich bin heute 4,5 Kilometer gelaufen und habe dafür genau 24 Minuten und 30 Sekunden gebraucht. Wenn ich diese drei Werte beim Programmstart angebe, soll mir das Programm sagen, dass mein Durchschnittstempo bei 5 Minuten und 26 Sekunden pro Kilometer liegt und meine hochgerechnete Zeit für 10 Kilometer bei 54 Minuten und 26 Sekunden wäre.
